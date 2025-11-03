@@ -1,0 +1,9 @@
+def area_circ(radius):
+    pi = 3.14
+    result = pi * radius * radius
+    print("Area of circle is ", result)
+
+def perimeter_circ(radius):
+    pi = 3.14
+    result = 2 * pi * radius
+    print("Perimeter of circle is ", result)
