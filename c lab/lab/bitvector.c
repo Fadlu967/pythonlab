@@ -9,7 +9,6 @@ char U[26] = {
 char set1[26], set2[26];
 int bit1[26], bit2[26], result[26];
 
-// Initialize bit vectors and result array
 void initializeSets()
 {
     for (int i = 0; i < 26; i++)
