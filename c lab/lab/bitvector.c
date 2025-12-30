@@ -19,7 +19,6 @@ void initializeSets()
     }
 }
 
-// Build bit vector using only n elements
 void bitvector(char set[], int bit[], int n)
 {
     for (int j = 0; j < n; j++)
@@ -108,7 +107,6 @@ int main()
     for (int i = 0; i < n2; i++)
         scanf(" %c", &set2[i]);
 
-    // Use n1 and n2 in bitvector function
     bitvector(set1, bit1, n1);
     bitvector(set2, bit2, n2);
 
